@@ -25,7 +25,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 # CONFIG
 # ============================================================
 BOT_TOKEN = os.getenv("8458055842:AAEDoEfD9cBpxTZNDXp7sZlxpgIdFMCFyOU", "").strip()
-OPENAI_API_KEY = os.getenv("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", "").strip()
+OPENAI_API_KEY = os.getenv("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", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite+aiosqlite:///./bot.db").strip()
 ADMIN_IDS = {
     int(x.strip()) for x in os.getenv("ADMIN_IDS", os.getenv("7575502917", "")).split(",")
